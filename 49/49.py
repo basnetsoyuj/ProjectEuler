@@ -1,4 +1,4 @@
-from itertools import islice,count,permutations
+from itertools import islice,count
 def is_prime(n):
     for i in islice(count(2),int(n**0.5-1)):
         if n%i==0:
